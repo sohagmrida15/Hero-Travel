@@ -1,0 +1,10 @@
+/* Common CSS */
+*{
+    font-family: "Mulish", sans-serif;
+}
+
+header, main{
+    max-width: 1170px;
+}
+
+/* Header Related Style */
