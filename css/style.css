@@ -209,5 +209,18 @@ nav .menu-icon {
 /* Popular Tour Section End */
 
 /* Destination Section Start */
+.destination {
+    text-align: center;
+}
+
+.destination-content {
+    max-width: 43rem;
+    margin: auto;
+}
+
+.destination-title{
+    margin-bottom: 1.5rem;
+}
+
 
 /* Destination Section End */
