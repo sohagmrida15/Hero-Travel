@@ -51,6 +51,7 @@ header {
 }
 
 nav {
+
     justify-content: space-between;
     align-items: center;
 }
@@ -77,6 +78,7 @@ nav {
 
 .nav-content {
     gap: 2.75rem;
+    padding: 0px;
 }
 
 .nav-content li>a {
@@ -90,6 +92,11 @@ nav {
     font-weight: 700;
 }
 
+nav .menu-icon {
+    max-width: 1.5rem;
+    display: none;
+}
+
 /* Header & Nav Related Style End */
 
 /* Banner Section Start */
@@ -99,6 +106,7 @@ nav {
     background-position: center;
     border-radius: 1rem;
     min-height: 500px;
+    margin-bottom: 3.125rem ;
 }
 
 .banner-container {
@@ -132,13 +140,33 @@ nav {
 }
 
 .search-content {
-    display: inline-flex;
+    display: flex;
     padding: 1rem;
-    /* align-items: flex-start; */
     gap: 24px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
-    max-width: 10.8rem;
 }
 
+.search-content input, .search-content select, .search-content button {
+    padding: 1rem;
+    color:var(--light-gray);
+    border-radius: 0.5rem;
+    border: none;
+    min-width: 10.8rem;
+}
+
+.search-content button {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    background-color: var(--primary);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.search-content button img {
+    max-width: 1.5rem;
+}
 /* Banner Section End */
