@@ -1,10 +1,79 @@
+/* Theme Related Style */
+:root {
+    --primary: #FF5400;
+    --light-gray: #5A5A5D;
+    --dark-gray: #131318;
+    --white: #ffffff;
+
+}
+
 /* Common CSS */
-*{
+* {
     font-family: "Mulish", sans-serif;
 }
 
-header, main{
+header,
+main {
     max-width: 1170px;
+    margin: 0px auto;
 }
 
-/* Header Related Style */
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Header & Nav Related Style */
+nav,
+.brand-content,
+.nav-content {
+    display: flex;
+}
+
+header {
+    margin: 50px auto;
+}
+
+nav {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-content {
+    gap: 1rem;
+    align-items: center;
+}
+
+.brand-content img {
+    width: 3.5rem;
+    height: 3rem;
+}
+
+.brand-title {
+    color: var(--dark-gray);
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.brand-title>span {
+    color: var(--primary);
+}
+
+.nav-content {
+    gap: 2.75rem;
+}
+
+.nav-content li > a {
+    color: var(--light-gray);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.nav-content li .home {
+    color: var(--primary);
+    font-weight: 700;
+}
