@@ -24,15 +24,12 @@ main {
     font-weight: 800;
 }
 
-.deccription {
+.description {
     --light-gray: #5A5A5D;
     font-size: 1rem;
     font-weight: 400;
 }
 
-li {
-    list-style: none;
-}
 
 a {
     text-decoration: none;
@@ -47,7 +44,7 @@ nav,
 }
 
 header {
-    margin: 50px auto;
+    margin-top: 3.125rem;
 }
 
 nav {
@@ -85,6 +82,10 @@ nav {
     color: var(--light-gray);
     font-size: 1.2rem;
     font-weight: 400;
+}
+
+.nav-content li {
+    list-style: none;
 }
 
 .nav-content li .home {
@@ -170,3 +171,43 @@ nav .menu-icon {
     max-width: 1.5rem;
 }
 /* Banner Section End */
+
+/* Popular Tour Section Start */
+.popular-tour{
+    margin: 6.25rem auto;
+    display: flex;
+    gap: 3.125rem;
+}
+
+#popular-tour-title{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.popular-tour li{
+    margin: 1rem 0;
+}
+
+.popular-tour-content button{
+    color: var(--white);
+    background-color: var(--primary);
+    font-size: 1.25rem;
+    font-weight: 800;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+}
+
+.popular-tour-content, .popular-tour-img{
+    max-width: 50%;
+}
+
+.popular-tour-img img {
+    width: 100%;
+}
+/* Popular Tour Section End */
+
+/* Destination Section Start */
+
+/* Destination Section End */
