@@ -18,6 +18,18 @@ main {
     margin: 0px auto;
 }
 
+.section-title {
+    color: var(--dark-gray);
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.deccription {
+    --light-gray: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
 li {
     list-style: none;
 }
@@ -27,7 +39,7 @@ a {
 }
 
 
-/* Header & Nav Related Style */
+/* Header & Nav Related Style Start */
 nav,
 .brand-content,
 .nav-content {
@@ -67,7 +79,7 @@ nav {
     gap: 2.75rem;
 }
 
-.nav-content li > a {
+.nav-content li>a {
     color: var(--light-gray);
     font-size: 1.2rem;
     font-weight: 400;
@@ -77,3 +89,56 @@ nav {
     color: var(--primary);
     font-weight: 700;
 }
+
+/* Header & Nav Related Style End */
+
+/* Banner Section Start */
+.banner {
+    background-image: url('../Images/banner-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 1rem;
+    min-height: 500px;
+}
+
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 500px;
+    border-radius: 1rem;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+}
+
+.banner-content {
+    max-width: 42.5rem;
+}
+
+.banner-title {
+    margin: 0px;
+    color: var(--white);
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.banner-description {
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 1.5rem auto;
+}
+
+.search-content {
+    display: inline-flex;
+    padding: 1rem;
+    /* align-items: flex-start; */
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    max-width: 10.8rem;
+}
+
+/* Banner Section End */
