@@ -389,13 +389,42 @@ button {
     margin: 1.5rem 0;
 }
 
-.news-img{
+.news-img {
     background-image: url(../Images/Rectangle2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border-radius: 1rem;
     width: 70%;
+    position: relative;
+}
+
+.sell-tag {
+    position: absolute;
+    right: 0.7rem;
+    bottom: 2.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    transform: rotate(-19.628deg);
+    border-radius: 1rem;
+    background: var(--primary);
+    padding: 2rem;
+    max-width: 60%;
+}
+
+.sell-tag > p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.sell-tag > h3 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 0;
 }
 
 /* News Later Section End */
