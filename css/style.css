@@ -220,7 +220,7 @@ nav .menu-icon {
 
 .destination-content {
     max-width: 43rem;
-    margin: 3rem auto ;
+    margin: 3rem auto;
 }
 
 .img-box {
@@ -292,3 +292,62 @@ nav .menu-icon {
 }
 
 /* Destination Section End */
+
+/* About Us Section Start */
+.about {
+    margin: 6.25rem auto;
+    text-align: center;
+}
+
+.about-content {
+    max-width: 35rem;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+.service-row1 {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.service-row2 {
+    display: flex;
+    justify-content: center;
+}
+
+.service-box {
+    text-align: left;
+    max-width: 35rem;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.service-box1 {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.service-box2 {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.service-box3 {
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.service-box img {
+    max-width: 4rem;
+}
+
+.box-title {
+    color: var(--dark-gray);
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 2rem;
+    margin-bottom: 0.8rem;
+}
+
+/* About Us Section End */
