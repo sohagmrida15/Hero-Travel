@@ -2,6 +2,9 @@
 @media screen and (max-width:576px) {
 
     /* Header & Nav responsive Style */
+    header{
+        margin-top: 0;
+    }
     .nav-content {
         display: none;
     }
@@ -12,7 +15,7 @@
 
     /* Banner Related Responsive Style */
     .banner {
-        margin: 1.5rem;
+        margin: 1.25rem;
     }
 
     .search-content {
@@ -27,8 +30,8 @@
     /* Popular Tour Related Responsive Style */
     .popular-tour {
         flex-direction: column;
-        gap: 1.5rem;
-        margin: 1.5rem;
+        gap: 1.25rem;
+        margin: 1.25rem 1.25rem 0rem 1.25rem;
     }
 
     .popular-tour-content,
@@ -36,14 +39,31 @@
         max-width: 100%;
     }
 
-    #popular-tour-title{
+    #popular-tour-title {
         margin: 0.5rem;
         font-size: 1.5rem;
     }
 
-    .popular-tour-content button{
-        margin: 0.3rem;
+    .popular-tour-content button {
+        margin: 0rem;
     }
+
+    /* Destination Section Related Responsive Style */
+    .destination {
+        margin: 0rem 1.25rem 1.25rem 1.25rem;
+    }
+
+    .destination-content #destination-title {
+        font-size: 1.5rem;
+        margin: 0rem auto;
+    }
+
+    .destination .img-row {
+        margin: 0rem 0rem 1.25rem 0rem;
+        gap: 1rem;
+        grid-template-columns: auto;
+    }
+
 }
 
 
@@ -85,6 +105,16 @@
     .popular-tour-img {
         max-width: 100%;
     }
+
+    /* Destination Section Related Responsive Style */
+    .destination {
+        margin: 1.5rem;
+    }
+
+    .destination .img-row {
+        margin: 1rem;
+        gap: 1rem;
+    }
 }
 
 
@@ -117,5 +147,10 @@
     .popular-tour-content,
     .popular-tour-img {
         max-width: 100%;
+    }
+
+    /* Destination Section Related Responsive Style */
+    .destination {
+        margin: 1.5rem;
     }
 }

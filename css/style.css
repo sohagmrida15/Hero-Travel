@@ -44,7 +44,7 @@ nav,
 }
 
 header {
-    margin-top: 3.125rem;
+    margin-top: 1.5rem;
 }
 
 nav {
@@ -107,7 +107,7 @@ nav .menu-icon {
     background-position: center;
     border-radius: 1rem;
     min-height: 500px;
-    margin-bottom: 3.125rem ;
+    margin-bottom: 3.125rem;
 }
 
 .banner-container {
@@ -148,9 +148,11 @@ nav .menu-icon {
     background: rgba(255, 255, 255, 0.30);
 }
 
-.search-content input, .search-content select, .search-content button {
+.search-content input,
+.search-content select,
+.search-content button {
     padding: 1rem;
-    color:var(--light-gray);
+    color: var(--light-gray);
     border-radius: 0.5rem;
     border: none;
     min-width: 10.8rem;
@@ -170,25 +172,26 @@ nav .menu-icon {
 .search-content button img {
     max-width: 1.5rem;
 }
+
 /* Banner Section End */
 
 /* Popular Tour Section Start */
-.popular-tour{
+.popular-tour {
     margin: 6.25rem auto;
     display: flex;
     gap: 3.125rem;
 }
 
-#popular-tour-title{
+#popular-tour-title {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
 }
 
-.popular-tour li{
+.popular-tour li {
     margin: 1rem 0;
 }
 
-.popular-tour-content button{
+.popular-tour-content button {
     color: var(--white);
     background-color: var(--primary);
     font-size: 1.25rem;
@@ -199,13 +202,15 @@ nav .menu-icon {
     margin-top: 1.5rem;
 }
 
-.popular-tour-content, .popular-tour-img{
+.popular-tour-content,
+.popular-tour-img {
     max-width: 50%;
 }
 
 .popular-tour-img img {
     width: 100%;
 }
+
 /* Popular Tour Section End */
 
 /* Destination Section Start */
@@ -215,12 +220,75 @@ nav .menu-icon {
 
 .destination-content {
     max-width: 43rem;
-    margin: auto;
+    margin: 3rem auto ;
 }
 
-.destination-title{
+.img-box {
+    min-height: 18.75rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid red;
+    border-radius: 1rem;
+}
+
+.img-box h2 {
+    color: var(--white);
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+
+.img-row-1 {
     margin-bottom: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
 }
 
+.img-row-2 {
+    margin-bottom: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    gap: 1.5rem;
+}
+
+.img-row-3 {
+    margin-bottom: 1.5rem;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    gap: 1.5rem;
+}
+
+#img-box1 {
+    background-image: url('../Images/maldives.png');
+}
+
+#img-box2 {
+    background-image: url('../Images/indonesia.png');
+}
+
+#img-box3 {
+    background-image: url('../Images/srilanka.png');
+}
+
+#img-box4 {
+    background-image: url('../Images/north-america.png');
+}
+
+#img-box5 {
+    background-image: url('../Images/kashmir.png');
+}
+
+#img-box6 {
+    background-image: url('../Images/Bangladesh.png');
+}
+
+#img-box7 {
+    background-image: url('../Images/bandharban.png');
+}
 
 /* Destination Section End */
