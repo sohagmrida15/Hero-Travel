@@ -201,4 +201,16 @@
     .about-content{
         margin-bottom: 1rem;
     }
+
+
+    /* News Later section Related Responsive Style */
+    .news{
+        margin: 1.5rem;
+        flex-direction: column;
+    }
+
+    .news-img{
+        width: 100%;
+        min-height: 26rem;
+    }
 }
