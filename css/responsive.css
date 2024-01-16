@@ -63,7 +63,27 @@
         gap: 1rem;
         grid-template-columns: auto;
     }
+    
+    /* About us section Related Responsive Style */
+    .about{
+        margin: 1.5rem;
+    }
 
+    .about-content{
+        margin-bottom: 1rem;
+    }
+
+    #about-title{
+        font-size: 1.5rem;
+    }
+
+    .service-row1{
+        flex-direction: column;
+    }
+
+    .box-title{
+        font-size: 1.25rem;
+    }
 }
 
 
@@ -115,6 +135,25 @@
         margin: 1rem;
         gap: 1rem;
     }
+    .destination .img-row {
+        margin: 0rem 0rem 1.25rem 0rem;
+        gap: 1rem;
+        grid-template-columns: auto;
+    }
+    
+    /* About us section Related Responsive Style */
+    .about{
+        margin: 1.5rem;
+    }
+
+    .about-content{
+        margin-bottom: 1rem;
+    }
+
+    .service-row1{
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 
@@ -152,5 +191,14 @@
     /* Destination Section Related Responsive Style */
     .destination {
         margin: 1.5rem;
+    }
+
+    /* About us section Related Responsive Style */
+    .about{
+        margin: 1.5rem;
+    }
+
+    .about-content{
+        margin-bottom: 1rem;
     }
 }
