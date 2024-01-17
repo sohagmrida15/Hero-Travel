@@ -4,7 +4,6 @@
     --light-gray: #5A5A5D;
     --dark-gray: #131318;
     --white: #ffffff;
-
 }
 
 /* Common CSS */
@@ -350,6 +349,60 @@ nav .menu-icon {
 }
 
 /* About Us Section End */
+
+/* Team section Start */
+.team{
+    margin-bottom: 6.25rem;
+}
+
+.team-content{
+    max-width: 50rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.team-content .section-title{
+    margin: 0.4rem;
+}
+
+.team-card-container{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.team-card{
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid var(--primary);
+    border-radius: 1rem;
+}
+
+.team-card > img{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.name{
+    margin: 0;
+    color: var(--primary);
+}
+
+#team-description{
+    margin-top: .2rem;
+}
+
+.social-link{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.social-link img{
+    max-height: 2rem;
+}
+/* Team section End */
 
 /* News Later Section Start */
 .news {
